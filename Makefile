@@ -7,9 +7,11 @@ build: clear
 	git submodule update
 	cd build && cmake .. && make main && make test
 
-run: ./build/main
+run: 
+	./build/main
 
-test: ./build/test
+test:
+	./build/test
 
 clear:
 	@rm -rf ./build/
