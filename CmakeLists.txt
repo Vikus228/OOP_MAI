@@ -8,7 +8,7 @@ add_executable(main src/main.cpp src/function.cpp)
 
 target_include_directories(main PRIVATE include)
 
-add_subdirectory(external/googletest)
+add_subdirectory(lib/googletest)
 
 add_executable(test tests/function_test.cpp src/function.cpp)
 
