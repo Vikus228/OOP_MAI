@@ -13,7 +13,7 @@ int main()
     }
     catch (const std::runtime_error &e)
     {
-        std::cerr << "No answer" << std::endl;
+        std::cerr << e.what() << std::endl;
     }
 
     return 0;

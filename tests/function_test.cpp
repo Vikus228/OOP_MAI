@@ -1,7 +1,7 @@
 #include <gtest/gtest.h>
 #include <function.h>
 
-TEST(test, 1)
+TEST(test, deviderHigherBound)
 {
     unsigned int devider = 2;
     unsigned int bound = 5;
@@ -11,7 +11,7 @@ TEST(test, 1)
     EXPECT_EQ(result, 4);
 }
 
-TEST(test, 2)
+TEST(test, deviderEqualBound)
 {
     unsigned int devider = 3;
     unsigned int bound = 9;
@@ -21,7 +21,7 @@ TEST(test, 2)
     EXPECT_EQ(result, 9);
 }
 
-TEST(test, 3)
+TEST(test, deviderHigherBound)
 {
     unsigned int devider = 2;
     unsigned int bound = 19;
@@ -31,7 +31,7 @@ TEST(test, 3)
     EXPECT_EQ(result, 18);
 }
 
-TEST(test, 4)
+TEST(test, deviderEqualBound)
 {
     unsigned int devider = 1;
     unsigned int bound = 190;
@@ -41,7 +41,7 @@ TEST(test, 4)
     EXPECT_EQ(result, 190);
 }
 
-TEST(test, 5)
+TEST(test, deviderEqualBound)
 {
     unsigned int devider = 20;
     unsigned int bound = 20;
@@ -51,7 +51,7 @@ TEST(test, 5)
     EXPECT_EQ(result, 20);
 }
 
-TEST(test, 6)
+TEST(test, deviderEqualBound)
 {
     unsigned int devider = 2000;
     unsigned int bound = 6000;
@@ -61,7 +61,7 @@ TEST(test, 6)
     EXPECT_EQ(result, 6000);
 }
 
-TEST(test, 7)
+TEST(test, deviderEqualBound)
 {
     unsigned int devider = 45;
     unsigned int bound = 90;
@@ -71,7 +71,7 @@ TEST(test, 7)
     EXPECT_EQ(result, 90);
 }
 
-TEST(test, 8)
+TEST(test, deviderHigherBound)
 {
     unsigned int devider = 1000;
     unsigned int bound = 1001;
@@ -81,7 +81,7 @@ TEST(test, 8)
     EXPECT_EQ(result, 1000);
 }
 
-TEST(test, 9)
+TEST(test, deviderHigherBound)
 {
     unsigned int devider = 3;
     unsigned int bound = 190;
@@ -91,7 +91,7 @@ TEST(test, 9)
     EXPECT_EQ(result, 189);
 }
 
-TEST(test, 10)
+TEST(test, throwErrorCheck)
 {
     unsigned int devider = 5;
     unsigned int bound = 2;
