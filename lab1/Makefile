@@ -5,13 +5,13 @@ build: clear
 	mkdir -p build
 	git submodule init
 	git submodule update
-	cd build && cmake .. && make main && make test
+	cd build && cmake .. && make lab1 && make lab1_test
 
 run: 
-	./build/main
+	./build/lab1
 
 test:
-	./build/test
+	./build/lab1_test
 
 clear:
 	@rm -rf ./build/

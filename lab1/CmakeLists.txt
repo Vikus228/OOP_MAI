@@ -1,0 +1,16 @@
+cmake_minimum_required(VERSION 3.10)
+project(lab1)
+
+set(CMAKE_CXX_STANDARD 14)
+set(CMAKE_CXX_STANDARD_REQUIRED ON)
+
+add_executable(lab1 src/main.cpp src/function.cpp)
+
+target_include_directories(lab1 PRIVATE include)
+
+add_subdirectory(../lib/googletest ${CMAKE_BINARY_DIR}/googletest-buid)
+
+add_executable(lab1_test tests/function_test.cpp src/function.cpp)
+target_include_directories(lab1_test PRIVATE include)
+
+target_link_libraries(lab1_test gtest gtest_main)

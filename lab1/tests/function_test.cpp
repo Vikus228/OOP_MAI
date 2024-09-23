@@ -21,7 +21,7 @@ TEST(test, deviderEqualBound)
     EXPECT_EQ(result, 9);
 }
 
-TEST(test, deviderHigherBound)
+TEST(test, deviderHigherBound1)
 {
     unsigned int devider = 2;
     unsigned int bound = 19;
@@ -31,7 +31,7 @@ TEST(test, deviderHigherBound)
     EXPECT_EQ(result, 18);
 }
 
-TEST(test, deviderEqualBound)
+TEST(test, deviderEqualBound1)
 {
     unsigned int devider = 1;
     unsigned int bound = 190;
@@ -41,7 +41,7 @@ TEST(test, deviderEqualBound)
     EXPECT_EQ(result, 190);
 }
 
-TEST(test, deviderEqualBound)
+TEST(test, deviderEqualBound2)
 {
     unsigned int devider = 20;
     unsigned int bound = 20;
@@ -51,7 +51,7 @@ TEST(test, deviderEqualBound)
     EXPECT_EQ(result, 20);
 }
 
-TEST(test, deviderEqualBound)
+TEST(test, deviderEqualBound3)
 {
     unsigned int devider = 2000;
     unsigned int bound = 6000;
@@ -61,7 +61,7 @@ TEST(test, deviderEqualBound)
     EXPECT_EQ(result, 6000);
 }
 
-TEST(test, deviderEqualBound)
+TEST(test, deviderEqualBound4)
 {
     unsigned int devider = 45;
     unsigned int bound = 90;
@@ -71,7 +71,7 @@ TEST(test, deviderEqualBound)
     EXPECT_EQ(result, 90);
 }
 
-TEST(test, deviderHigherBound)
+TEST(test, deviderHigherBound2)
 {
     unsigned int devider = 1000;
     unsigned int bound = 1001;
@@ -81,7 +81,7 @@ TEST(test, deviderHigherBound)
     EXPECT_EQ(result, 1000);
 }
 
-TEST(test, deviderHigherBound)
+TEST(test, deviderHigherBound3)
 {
     unsigned int devider = 3;
     unsigned int bound = 190;
