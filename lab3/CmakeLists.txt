@@ -1,0 +1,20 @@
+cmake_minimum_required(VERSION 3.10)
+project(lab3)
+
+set(CMAKE_CXX_STANDARD 14)
+set(CMAKE_CXX_STANDARD_REQUIRED ON)
+
+add_executable(lab3 include/figure.h include/hexagon.h include/octagon.h include/point.h include/triangle.h include/array.h
+src/figure.cpp src/hexagon.cpp src/main.cpp src/octagon.cpp src/point.cpp src/triangle.cpp src/array.cpp
+)
+
+target_include_directories(lab3 PRIVATE include)
+
+add_subdirectory(../lib/googletest ${CMAKE_BINARY_DIR}/googletest-buid)
+
+add_executable(lab3_test include/figure.h include/hexagon.h include/octagon.h include/point.h include/triangle.h include/array.h
+src/figure.cpp src/hexagon.cpp src/octagon.cpp src/point.cpp src/triangle.cpp src/array.cpp
+)
+target_include_directories(lab3_test PRIVATE include)
+
+target_link_libraries(lab3_test gtest gtest_main)

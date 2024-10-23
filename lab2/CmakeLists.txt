@@ -4,13 +4,13 @@ project(lab2)
 set(CMAKE_CXX_STANDARD 14)
 set(CMAKE_CXX_STANDARD_REQUIRED ON)
 
-add_executable(lab2 src/main.cpp src/function.cpp)
+add_executable(lab2 src/main.cpp src/class.cpp)
 
 target_include_directories(lab2 PRIVATE include)
 
 add_subdirectory(../lib/googletest ${CMAKE_BINARY_DIR}/googletest-buid)
 
-add_executable(lab2_test tests/function_test.cpp src/function.cpp)
+add_executable(lab2_test tests/test_just_wow.cpp src/class.cpp)
 target_include_directories(lab2_test PRIVATE include)
 
 target_link_libraries(lab2_test gtest gtest_main)
