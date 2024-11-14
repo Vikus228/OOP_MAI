@@ -26,10 +26,5 @@ public:
     friend std::ostream &operator<<(std::ostream &os, const Figure<U> &figure);
 };
 
-template <Number T>
-std::ostream &operator<<(std::ostream &os, const Figure<T> &figure) {
-    figure.Print(os);
-    return os;
-}
 
 #endif //FIGURE_H
