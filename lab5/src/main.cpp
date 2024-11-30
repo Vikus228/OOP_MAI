@@ -11,7 +11,7 @@ private:
     size_t offset;
 
 public:
-    FixedMemoryResource(size_t block_size, size_t total_size)
+    FixedMemoryResource(size_t total_size)
         : size(total_size), offset(0)
     {
         pool = new std::byte[total_size];
@@ -25,10 +25,15 @@ public:
 protected:
     void *do_allocate(std::size_t bytes, std::size_t alignment) override
     {
-        if (offset + bytes <= size)
+        std::size_t current_address = reinterpret_cast<std::size_t>(pool + offset);
+        std::size_t misalignment = current_address % alignment;
+        std::size_t adjustment = misalignment == 0 ? 0 : (alignment - misalignment);
+        std::size_t aligned_offset = offset + adjustment;
+
+        if (aligned_offset + bytes <= size)
         {
-            void *ptr = pool + offset;
-            offset += bytes;
+            void *ptr = pool + aligned_offset;
+            offset = aligned_offset + bytes;
             return ptr;
         }
         else
@@ -39,7 +44,7 @@ protected:
 
     void do_deallocate(void *p, std::size_t bytes, std::size_t alignment) override
     {
-        // Память не освобождается, тк пул фиксирован.
+        // В фиксированном пуле память не освобождается
     }
 
     bool do_is_equal(const std::pmr::memory_resource &other) const noexcept override
@@ -50,7 +55,7 @@ protected:
 
 int main()
 {
-    FixedMemoryResource memory_resource(64, 1024);
+    FixedMemoryResource memory_resource(1024);
     DoublyLinkedList<int> int_list(&memory_resource);
 
     int_list.push_back(10);

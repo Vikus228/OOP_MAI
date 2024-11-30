@@ -6,7 +6,7 @@ CXX_DEFINES =
 
 CXX_INCLUDES = -I/Users/viktoria/Documents/OOP/lib/googletest/googletest/include -I/Users/viktoria/Documents/OOP/lib/googletest/googletest
 
-CXX_FLAGSarm64 = -std=c++14 -arch arm64 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX14.4.sdk  -DGTEST_HAS_PTHREAD=1  
+CXX_FLAGSarm64 = -g -std=c++14 -arch arm64 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX14.4.sdk  -DGTEST_HAS_PTHREAD=1  
 
-CXX_FLAGS = -std=c++14 -arch arm64 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX14.4.sdk  -DGTEST_HAS_PTHREAD=1  
+CXX_FLAGS = -g -std=c++14 -arch arm64 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX14.4.sdk  -DGTEST_HAS_PTHREAD=1  
 
