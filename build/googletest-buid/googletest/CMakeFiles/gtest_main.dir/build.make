@@ -73,15 +73,15 @@ googletest-buid/googletest/CMakeFiles/gtest_main.dir/src/gtest_main.cc.o: google
 googletest-buid/googletest/CMakeFiles/gtest_main.dir/src/gtest_main.cc.o: /Users/viktoria/Documents/OOP/lib/googletest/googletest/src/gtest_main.cc
 googletest-buid/googletest/CMakeFiles/gtest_main.dir/src/gtest_main.cc.o: googletest-buid/googletest/CMakeFiles/gtest_main.dir/compiler_depend.ts
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/Users/viktoria/Documents/OOP/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object googletest-buid/googletest/CMakeFiles/gtest_main.dir/src/gtest_main.cc.o"
-	cd /Users/viktoria/Documents/OOP/build/googletest-buid/googletest && /Library/Developer/CommandLineTools/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT googletest-buid/googletest/CMakeFiles/gtest_main.dir/src/gtest_main.cc.o -MF CMakeFiles/gtest_main.dir/src/gtest_main.cc.o.d -o CMakeFiles/gtest_main.dir/src/gtest_main.cc.o -c /Users/viktoria/Documents/OOP/lib/googletest/googletest/src/gtest_main.cc
+	cd /Users/viktoria/Documents/OOP/build/googletest-buid/googletest && /usr/bin/clang++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT googletest-buid/googletest/CMakeFiles/gtest_main.dir/src/gtest_main.cc.o -MF CMakeFiles/gtest_main.dir/src/gtest_main.cc.o.d -o CMakeFiles/gtest_main.dir/src/gtest_main.cc.o -c /Users/viktoria/Documents/OOP/lib/googletest/googletest/src/gtest_main.cc
 
 googletest-buid/googletest/CMakeFiles/gtest_main.dir/src/gtest_main.cc.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/gtest_main.dir/src/gtest_main.cc.i"
-	cd /Users/viktoria/Documents/OOP/build/googletest-buid/googletest && /Library/Developer/CommandLineTools/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Users/viktoria/Documents/OOP/lib/googletest/googletest/src/gtest_main.cc > CMakeFiles/gtest_main.dir/src/gtest_main.cc.i
+	cd /Users/viktoria/Documents/OOP/build/googletest-buid/googletest && /usr/bin/clang++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Users/viktoria/Documents/OOP/lib/googletest/googletest/src/gtest_main.cc > CMakeFiles/gtest_main.dir/src/gtest_main.cc.i
 
 googletest-buid/googletest/CMakeFiles/gtest_main.dir/src/gtest_main.cc.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/gtest_main.dir/src/gtest_main.cc.s"
-	cd /Users/viktoria/Documents/OOP/build/googletest-buid/googletest && /Library/Developer/CommandLineTools/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/viktoria/Documents/OOP/lib/googletest/googletest/src/gtest_main.cc -o CMakeFiles/gtest_main.dir/src/gtest_main.cc.s
+	cd /Users/viktoria/Documents/OOP/build/googletest-buid/googletest && /usr/bin/clang++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/viktoria/Documents/OOP/lib/googletest/googletest/src/gtest_main.cc -o CMakeFiles/gtest_main.dir/src/gtest_main.cc.s
 
 # Object files for target gtest_main
 gtest_main_OBJECTS = \
