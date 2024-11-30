@@ -73,29 +73,29 @@ lab1/CMakeFiles/lab1.dir/src/main.cpp.o: lab1/CMakeFiles/lab1.dir/flags.make
 lab1/CMakeFiles/lab1.dir/src/main.cpp.o: /Users/viktoria/Documents/OOP/lab1/src/main.cpp
 lab1/CMakeFiles/lab1.dir/src/main.cpp.o: lab1/CMakeFiles/lab1.dir/compiler_depend.ts
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/Users/viktoria/Documents/OOP/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object lab1/CMakeFiles/lab1.dir/src/main.cpp.o"
-	cd /Users/viktoria/Documents/OOP/build/lab1 && /usr/bin/clang++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT lab1/CMakeFiles/lab1.dir/src/main.cpp.o -MF CMakeFiles/lab1.dir/src/main.cpp.o.d -o CMakeFiles/lab1.dir/src/main.cpp.o -c /Users/viktoria/Documents/OOP/lab1/src/main.cpp
+	cd /Users/viktoria/Documents/OOP/build/lab1 && /Library/Developer/CommandLineTools/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT lab1/CMakeFiles/lab1.dir/src/main.cpp.o -MF CMakeFiles/lab1.dir/src/main.cpp.o.d -o CMakeFiles/lab1.dir/src/main.cpp.o -c /Users/viktoria/Documents/OOP/lab1/src/main.cpp
 
 lab1/CMakeFiles/lab1.dir/src/main.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/lab1.dir/src/main.cpp.i"
-	cd /Users/viktoria/Documents/OOP/build/lab1 && /usr/bin/clang++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Users/viktoria/Documents/OOP/lab1/src/main.cpp > CMakeFiles/lab1.dir/src/main.cpp.i
+	cd /Users/viktoria/Documents/OOP/build/lab1 && /Library/Developer/CommandLineTools/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Users/viktoria/Documents/OOP/lab1/src/main.cpp > CMakeFiles/lab1.dir/src/main.cpp.i
 
 lab1/CMakeFiles/lab1.dir/src/main.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/lab1.dir/src/main.cpp.s"
-	cd /Users/viktoria/Documents/OOP/build/lab1 && /usr/bin/clang++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/viktoria/Documents/OOP/lab1/src/main.cpp -o CMakeFiles/lab1.dir/src/main.cpp.s
+	cd /Users/viktoria/Documents/OOP/build/lab1 && /Library/Developer/CommandLineTools/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/viktoria/Documents/OOP/lab1/src/main.cpp -o CMakeFiles/lab1.dir/src/main.cpp.s
 
 lab1/CMakeFiles/lab1.dir/src/function.cpp.o: lab1/CMakeFiles/lab1.dir/flags.make
 lab1/CMakeFiles/lab1.dir/src/function.cpp.o: /Users/viktoria/Documents/OOP/lab1/src/function.cpp
 lab1/CMakeFiles/lab1.dir/src/function.cpp.o: lab1/CMakeFiles/lab1.dir/compiler_depend.ts
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/Users/viktoria/Documents/OOP/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Building CXX object lab1/CMakeFiles/lab1.dir/src/function.cpp.o"
-	cd /Users/viktoria/Documents/OOP/build/lab1 && /usr/bin/clang++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT lab1/CMakeFiles/lab1.dir/src/function.cpp.o -MF CMakeFiles/lab1.dir/src/function.cpp.o.d -o CMakeFiles/lab1.dir/src/function.cpp.o -c /Users/viktoria/Documents/OOP/lab1/src/function.cpp
+	cd /Users/viktoria/Documents/OOP/build/lab1 && /Library/Developer/CommandLineTools/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT lab1/CMakeFiles/lab1.dir/src/function.cpp.o -MF CMakeFiles/lab1.dir/src/function.cpp.o.d -o CMakeFiles/lab1.dir/src/function.cpp.o -c /Users/viktoria/Documents/OOP/lab1/src/function.cpp
 
 lab1/CMakeFiles/lab1.dir/src/function.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/lab1.dir/src/function.cpp.i"
-	cd /Users/viktoria/Documents/OOP/build/lab1 && /usr/bin/clang++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Users/viktoria/Documents/OOP/lab1/src/function.cpp > CMakeFiles/lab1.dir/src/function.cpp.i
+	cd /Users/viktoria/Documents/OOP/build/lab1 && /Library/Developer/CommandLineTools/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Users/viktoria/Documents/OOP/lab1/src/function.cpp > CMakeFiles/lab1.dir/src/function.cpp.i
 
 lab1/CMakeFiles/lab1.dir/src/function.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/lab1.dir/src/function.cpp.s"
-	cd /Users/viktoria/Documents/OOP/build/lab1 && /usr/bin/clang++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/viktoria/Documents/OOP/lab1/src/function.cpp -o CMakeFiles/lab1.dir/src/function.cpp.s
+	cd /Users/viktoria/Documents/OOP/build/lab1 && /Library/Developer/CommandLineTools/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/viktoria/Documents/OOP/lab1/src/function.cpp -o CMakeFiles/lab1.dir/src/function.cpp.s
 
 # Object files for target lab1
 lab1_OBJECTS = \
