@@ -227,8 +227,8 @@ googletest-buid/googlemock/CMakeFiles/gmock.dir/clean:
 # Target rules for target googletest-buid/googlemock/CMakeFiles/gmock_main.dir
 
 # All Build rule for target.
-googletest-buid/googlemock/CMakeFiles/gmock_main.dir/all: googletest-buid/googlemock/CMakeFiles/gmock.dir/all
 googletest-buid/googlemock/CMakeFiles/gmock_main.dir/all: googletest-buid/googletest/CMakeFiles/gtest.dir/all
+googletest-buid/googlemock/CMakeFiles/gmock_main.dir/all: googletest-buid/googlemock/CMakeFiles/gmock.dir/all
 	$(MAKE) $(MAKESILENT) -f googletest-buid/googlemock/CMakeFiles/gmock_main.dir/build.make googletest-buid/googlemock/CMakeFiles/gmock_main.dir/depend
 	$(MAKE) $(MAKESILENT) -f googletest-buid/googlemock/CMakeFiles/gmock_main.dir/build.make googletest-buid/googlemock/CMakeFiles/gmock_main.dir/build
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=/Users/viktoria/Documents/OOP/build/CMakeFiles --progress-num=3,4 "Built target gmock_main"
